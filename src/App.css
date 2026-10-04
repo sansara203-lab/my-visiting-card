@@ -1,0 +1,41 @@
+.card {
+  /* максимальная ширина карточки, на больших экранах она не будет растягиваться */
+  max-width: 600px;
+  /* 40px - отступы сверхуи снизу; auto - по бокам карточка центрируется */
+  margin: 40px auto;
+  /* внутренние отступы */
+  padding: 24px;
+  /* толщина и цвет рамки */
+  border: 2px solid #e0e0e0;
+  /* скругление углов */
+  border-radius: 12px;
+  /* фон карточки */
+  background-color: #f9f9f9;
+/* тень */
+  box-shadow: 0,4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.role {
+  /* цвет шрифта */
+  color: #555;
+  /* толщина шрифта */
+  font-weight: 500;
+}
+
+.description {
+  /* межстрочный интервал */
+  line-height: 1.6;
+  color: #333;
+}
+
+.quote {
+  /* курсив */
+  font-style: italic;
+  /* граница слева */
+  border-left: 4px solid #2e7d32;
+  /* отступ слева */
+  padding-left: 16px;
+  /* внешний отступ сверху */
+  margin-top: 20px;
+  color: #444;
+}
